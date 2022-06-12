@@ -1,5 +1,5 @@
 # Speed-Estimation-Using-Homography-Transformation-and-Regression-Network
-This work includes homography transformation which is change monocular view into bird eye view.
+This work includes homography transformation which is change monocular view into bird eye view. and 
 # Requirements
 To run the training or testing step, you must installed library as follow:
 1. Tensorflow-gpu = 1.14.0
@@ -9,7 +9,7 @@ To run the training or testing step, you must installed library as follow:
 1. Download and generate the datasets
 The datasets based on the <a href="https://carla.org/">carla dataset</a> and to generate datasets directly using 
 "generate_raw_carla_van_dataset.py"
-if you want to use directly without do preprocessing first can be donwloaded in <a href="">here</a>
+if you want to use directly without do preprocessing first can be downloaded in <a href="">here</a>
 2. Convert dataset into generator
 If you already download the dataset, run convert_raw_carla_van_to_tfrecords.py to create one file contains parameter to compute homography matriks
 3. Training process
