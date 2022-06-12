@@ -11,9 +11,9 @@ The datasets based on the <a href="https://carla.org/">carla dataset</a> and to 
 "generate_raw_carla_van_dataset.py"
 if you want to use directly without do preprocessing first can be downloaded in <a href="https://drive.google.com/drive/folders/1o9ydKCnh0oyIMFAw7oNxQohFa0XM4V-g">here</a>
 2. Convert dataset into generator
-If you already download the dataset, run convert_raw_carla_van_to_tfrecords.py to create one file contains parameter to compute homography matriks
+If you already download the dataset, run convert_raw_carla_van_to_tfrecords.py to create one file contains parameter to compute homography matrix
 3. Training process
-After we put dataset into generator, datasets ready to train. Run train_carla_van_horizon_vpz.py to start training process and set epoch, learning_rate, and batch_size as you desired.
+After we put dataset into generator, datasets ready to train. Run "train_carla_van_horizon_vpz.py" to start training process and set epoch, learning_rate, and batch_size as you desired.
 4. Finish. You got checkpoint and choose the better checkpoint based on minimum loss will be used as pretrained model in new images.
 # How to Testing
 1. To run the testing, you can choose single images or video files run "run_image.py" or "run_video.py", respectively.
