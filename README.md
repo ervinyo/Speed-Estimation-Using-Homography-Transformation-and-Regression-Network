@@ -1,5 +1,5 @@
 # Speed-Estimation-Using-Homography-Transformation-and-Regression-Network
-This work includes homography transformation which is change monocular view into bird eye view. and 
+This work includes homography transformation which is change monocular view into bird eye view and calculate each of vehicel speed in the videos using regression network. 
 # Requirements
 To run the training or testing step, you must installed library as follow:
 1. Tensorflow-gpu = 1.14.0
