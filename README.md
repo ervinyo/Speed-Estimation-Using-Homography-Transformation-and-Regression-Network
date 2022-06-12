@@ -17,4 +17,5 @@ After we put dataset into generator, datasets ready to train. Run train_carla_va
 4. Finish. You got checkpoint and choose the better checkpoint based on minimum loss will be used as pretrained model in new images.
 # How to Testing
 1. To run the testing, you can choose single images or video files run "run_image.py" or "run_video.py", respectively.
-2. Wait until testing finish, and you got the bird eye view results.
+for the single image can be seen in "images" folder, while the videos files can be downloaded in <a href="">here</a>
+3. Wait until testing finish, and you got the bird eye view results.
