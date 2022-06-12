@@ -40,8 +40,8 @@ tf.app.flags.DEFINE_string(
     'img_path', None,
     'Path for the input image.')
 '''
-name ="session5_center"    
-video = cv2.VideoCapture("datasets/"+name+".avi")
+name ="video1"    
+video = cv2.VideoCapture("images/"+name+".mp4")
 video_fps = round(video.get(cv2.CAP_PROP_FPS))
 frame_count = int(video.get(cv2.CAP_PROP_FRAME_COUNT))
 outputPath = "video/"+name+"_BEV.mp4"
