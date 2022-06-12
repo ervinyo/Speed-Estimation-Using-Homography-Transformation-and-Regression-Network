@@ -1,6 +1,3 @@
-# Author: Syed Ammar Abbas
-# VGG, 2019
-
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
@@ -50,11 +47,11 @@ isRotate = not True
 
 tf.app.flags.DEFINE_string(
     'model_name', 'inception-v4',
-    'Two models available for prediction (vgg-16 and inception-v4')
+    'One models available for prediction (inception-v4')
 
 tf.app.flags.DEFINE_string(
     'train_dir', '',
-    'Two models available for prediction (vgg-16 and inception-v4')
+    'One models available for prediction (inception-v4')
 
 #tf.app.flags.mark_flag_as_required('img_path')
 #tf.app.flags.mark_flag_as_required('model_name')
